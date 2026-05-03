@@ -5,7 +5,7 @@ WORKDIR /build
 
 RUN pip install --no-cache-dir hatchling
 
-COPY pyproject.toml ./
+COPY README.md pyproject.toml ./
 COPY src/ ./src/
 
 RUN python -m venv /opt/venv && \
