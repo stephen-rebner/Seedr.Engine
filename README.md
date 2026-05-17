@@ -1,7 +1,8 @@
 # Seedr.Engine
 
-AI-powered database seed data generator. Accepts natural-language prompts and a database schema,
-then returns structured rows suitable for seeding database tables — powered by Anthropic's Claude.
+The AI brain behind Seedr's data-generation feature. Given a database table schema and a natural-language instruction, it returns structured rows ready for seeding — without persisting anything itself.
+
+Runs as the `seedr-ai` Docker service (port 8082) in the Seedr platform. Built with FastAPI and powered by Anthropic's Claude.
 
 ---
 
